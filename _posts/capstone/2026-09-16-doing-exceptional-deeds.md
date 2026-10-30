@@ -4,6 +4,9 @@ toc: false
 layout: post
 title: Doing Exceptional Deeds
 permalink: /capstone/doingexceptionaldeeds/
+board_columns:
+  - status: Backlog
+    hidden: true
 ---
 
 > Doing Exceptional Deeds (D.A.D.) is a nonprofit focused on helping students and the community. The organization has strong programs and resources, but the website can be improved by making important information easier to find, reducing excessive text, and creating a simpler experience for students, teachers, and families.
@@ -284,6 +287,7 @@ Current tasks, assignees, and progress are tracked in our GitHub Projects board 
 {% include ocs_kanban_board.html
    url="https://github.com/orgs/ComputerScienceDudes/projects/7"
    title="ComputerScienceDudes Kanban Board"
+   columns=page.board_columns
 %}
 
 ---
